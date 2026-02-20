@@ -1,0 +1,8 @@
+*.class
+*.jar
+*.exe
+bin/
+out/
+build/
+target/
+.DS_Store
