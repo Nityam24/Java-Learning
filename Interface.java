@@ -168,9 +168,11 @@ class C implements A, B {
     }
 
     // @Override
-    // public static void isEmail() {
+    public static void isEmail() {
     //     A.super.isEmail();          // compile error - can't do that as it is static method use as A.isEmail() directly
-    // }
+        // B.isEmail();                 /// this is possible
+        // A.isEmail();                 // this is possible
+    }
 }
 
 ////////////////////////////////////// Functional Interfaces /////////////////////////////////////////////////////////
